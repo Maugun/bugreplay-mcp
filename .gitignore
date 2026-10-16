@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.npm-cache/
+.tmp/
+.playwright-browsers/
+.bugreplay/cases/

@@ -1,0 +1,10 @@
+# Merge this block into Codex's MCP configuration and replace the example paths.
+
+[mcp_servers.bugreplay_mcp]
+enabled = true
+command = "node"
+args = ["C:/path/to/bugreplay/dist/index.js"]
+
+[mcp_servers.bugreplay_mcp.env]
+BUGREPLAY_ROOT = "C:/path/to/your/app"
+PLAYWRIGHT_BROWSERS_PATH = "C:/path/to/bugreplay/.playwright-browsers"
